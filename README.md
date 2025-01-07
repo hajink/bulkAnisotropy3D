@@ -1,4 +1,4 @@
-A neat(er) and shareable code to generate 3d topology optimized structures with anisotropic base material assumptions[1]. \
+A neat(er) and shareable code to generate 3d topology optimized structures with anisotropic base material assumptions[1]. Currently setup to generate I-beam-like designs for 3-point bending.\
 
 The base of the code has been updated to be based on https://www.top3d.app/ [2]. The largest modification is to the generation of the stiffness matrix KE. New functions are in the folder titled *stiffnessGeneration*. The function that plays the largest role is *D_3d.m*, which initializes and populates the constitutive matrix. MMA[3] is implemented as the optimizer. 
 
